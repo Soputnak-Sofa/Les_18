@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Less_18</title>
+
+    <style>
+        form{
+				width: 500px;
+				background-color: rgb(0, 255, 242);
+				height:300px;
+			}
+			 h1{
+				color: rgb(242, 0, 255);
+				text-align: center;
+			 }
+      input,label,button{
+				display: block;
+				
+			}
+
+			label{
+				color: white;
+				margin-left: 200px;
+			}
+
+			.password, select, button{
+				margin-left: 200px;
+                margin-top: 20px;
+			}
+
+            button {
+                width: 150px;
+                color: magenta;
+                font-size: 20px;
+                cursor: pointer;
+                transition: 2s;
+                border: none;
+                background-color: rgb(217, 255, 0);
+            }
+
+            botton:hover {
+                border-radius: 12px;
+            }
+
+            
+
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <h1>Написати</h1>
+        <label for="">
+            Ім'я та прізвище 
+            <input type="text">
+        </label>
+
+        <label for="">
+            Електронна пошта 
+            <input type="email"/>
+        </label>
+
+        <input class="password" placeholder="Enter your password" type="password" />
+        
+        <label for="">Вибери свою машину</label>
+        <select name="" id="">
+       <optgroup label="Німецькі машини">
+        <option value="">BMW</option>
+        <Option>Audi</Option>
+       </optgroup> 
+
+       <optgroup label="Італьянські машини">
+        <option value="">Lamborgini</option>
+        <option value="">Ferrari</option>
+       </optgroup>
+
+    </select>
+
+    <button>Відправити</button>
+    </form>
+</body>
+</html>
